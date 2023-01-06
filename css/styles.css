@@ -1,0 +1,206 @@
+* {
+  font-family: "Poppins", sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  color: whitesmoke;
+}
+
+html,
+body {
+  height: auto;
+  min-height: 100vh;
+}
+
+html {
+  background: rgb(106, 50, 195);
+  background: linear-gradient(
+    325deg,
+    rgba(106, 50, 195, 1) 11%,
+    rgba(79, 23, 167, 1) 24%,
+    rgba(63, 5, 154, 1) 48%,
+    rgba(106, 50, 195, 1) 90%
+  );
+}
+
+::placeholder {
+  color: antiquewhite;
+  opacity: 1;
+}
+
+:-ms-input-placeholder {
+  color: antiquewhite;
+}
+
+input:focus {
+  outline: none;
+}
+
+#reg-container {
+  max-width: 900px;
+  min-height: 80vh;
+  margin: 2rem auto;
+  display: flex;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+#reg-banner {
+  background: rgb(240, 128, 128);
+  background: linear-gradient(
+    325deg,
+    rgba(240, 128, 128, 1) 11%,
+    rgba(195, 53, 53, 1) 28%,
+    rgba(201, 33, 33, 1) 55%,
+    rgba(240, 128, 128, 1) 90%
+  );
+  width: 50%;
+}
+
+#banner-layer {
+  background-color: rgba(55, 8, 75, 0.25);
+  height: 100%;
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+}
+
+#reg-banner h1 {
+  font-size: 3.85rem;
+  margin-bottom: 1.5rem;
+  color: white;
+  word-spacing: 50rem;
+}
+
+#reg-form {
+  background-color: #9667e0;
+  padding: 2rem;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+#reg-form h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+  font-size: 2.2rem;
+}
+
+#reg-form p {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: antiquewhite;
+  font-size: 0.8rem;
+}
+
+.form-control {
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-control label {
+  font-weight: bold;
+  margin-bottom: 0.6rem;
+}
+
+.form-control input {
+  border: none;
+  border-bottom: 1px solid antiquewhite;
+  padding: 0.6rem 0;
+  background-color: #9667e0;
+  color: antiquewhite;
+}
+
+#open-generate-pwd {
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+#open-generate-pwd:hover {
+  color: #380984;
+}
+
+#reg-form #generated-pwd {
+  border: 1px solid #380984;
+  border-radius: 4px;
+  font-weight: bold;
+  font-size: 1.2rem;
+  padding: 0.4rem;
+  color: antiquewhite;
+  text-align: center;
+  margin-bottom: 1rem;
+  display: none;
+}
+
+#reg-form #generated-pwd p {
+  color: #a7f865;
+  margin-bottom: 0.5rem;
+}
+
+#reg-form input[type="submit"],
+#generate-options button,
+#copy-pwd {
+  background-color: #a7f865;
+  color: rgb(71, 71, 71);
+  opacity: 0.85;
+  border: none;
+  border-radius: 2rem;
+  padding: 0.7rem 1.4rem;
+  max-width: 150px;
+  cursor: pointer;
+  align-self: flex-end;
+  transition: 0.4s;
+}
+
+#reg-form input[type="submit"]:hover {
+  opacity: 1;
+}
+
+#generate-options {
+  margin-bottom: 1rem;
+  padding: 1rem;
+  border: 1px solid #380984;
+}
+
+#generate-options .form-control {
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#generate-options label {
+  font-size: 0.8rem;
+}
+
+#generate-options input[type="text"] {
+  max-width: 30px;
+  text-align: center;
+  border: 1px solid #ccc;
+}
+
+#generate-options button {
+  background-color: #a7f865;
+  display: block;
+  margin: 0 auto;
+  opacity: .85;
+}
+
+#generate-options button:hover {
+    opacity: 1;
+}
+
+#copy-pwd {
+  margin: 1rem auto;
+  padding: 0.5rem 1rem;
+  opacity: .85;
+}
+
+#copy-pwd:hover {
+    opacity: 1;
+}
+
+.hide {
+  display: none;
+}

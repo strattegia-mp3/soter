@@ -184,21 +184,21 @@ input:focus {
   background-color: #a7f865;
   display: block;
   margin: 0 auto;
-  opacity: .85;
+  opacity: 0.85;
 }
 
 #generate-options button:hover {
-    opacity: 1;
+  opacity: 1;
 }
 
 #copy-pwd {
   margin: 1rem auto;
   padding: 0.5rem 1rem;
-  opacity: .85;
+  opacity: 0.85;
 }
 
 #copy-pwd:hover {
-    opacity: 1;
+  opacity: 1;
 }
 
 .hide {

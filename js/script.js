@@ -3,9 +3,7 @@ const generatePwdBtn = document.querySelector("#generate-pwd");
 const generatedPwdElement = document.querySelector("#generated-pwd");
 
 // Funções
-const openCloseGeneratorButton = document.querySelector(
-  "#open-generate-pwd"
-);
+const openCloseGeneratorButton = document.querySelector("#open-generate-pwd");
 const generatePasswordContainer = document.querySelector("#generate-options");
 const lengthInput = document.querySelector("#length");
 const lettersInput = document.querySelector("#letters");
